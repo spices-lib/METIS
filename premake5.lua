@@ -1,4 +1,4 @@
-project "METLS"
+project "METIS"
 	kind "StaticLib"
 	language "C++"
 
@@ -47,8 +47,8 @@ project "METLS"
 	includedirs
 	{
 		"%{IncludeDir.GKlib}",
-		"%{IncludeDir.METLS}/include",
-		"%{IncludeDir.METLS}/libmetis",
+		"%{IncludeDir.METIS}/include",
+		"%{IncludeDir.METIS}/libmetis",
 	}
 
 	defines
